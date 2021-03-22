@@ -10,4 +10,4 @@ O Projeto foi desenvolvido por mim durante a realização de uma bolsa de inicia
 -  **JavaScript** 
 
 ## Instruções 
-Executar o arquivo  atoms.html  no navegador 
+Executar o arquivo em uma IDE com funcionalidade para rodar Java
