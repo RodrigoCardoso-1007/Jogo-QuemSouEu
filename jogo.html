@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, inicial-scale=1">
+  <!-- Tag para que a janela possua a mesma largura do dispositivo que está sendo usado para acessar o site (width=device-width) e que ela não seja ampliada inicialmente (initial-scale=1) - ajudam na responsividade -->
+  <link rel="icon" href="./../imgs/icone.ico">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./CSS/jogo.css">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed&display=swap" rel="stylesheet">
+
+  <title>QUEM SOU EU?</title>
+</head>
+
+<body>
+</br>
+  <div id="all">
+    <div id="all2">
+      <h1> <img src="./../imgs/logojogo.png" id="logo-jogo">
+        <h1>
+
+          <div id="dicas">
+            <h2 id="botao"> DICAS</h2>
+            <h4 id="placar"> </h4>
+          </div>
+
+
+          <p></p>
+          <div class="cart">
+            <img src="./../imgs/math.png" class="dinamismo" id="img1">
+            <h4 id="descr1"> </h4>
+            <h6 id="tx1" class="esconde"></h6>
+          </div>
+          <div class="cart">
+            <img src="./../imgs/math.png" class="dinamismo" id="img2">
+            <h4  id="descr2"> </h4>
+            <h6 id="tx2" class="esconde"></h6>
+          </div>
+          <div class="cart">
+            <img src="./../imgs/math.png" class="dinamismo" id="img3">
+            <h4 id="descr3"></h4>
+            <h6 id="tx3" class="esconde"></h6>
+          </div>
+          <div class="cart">
+            <img src="./../imgs/math.png" class="dinamismo" id="img4">
+            <h4 id="descr4"> </h4>
+            <h6 id="tx4" class="esconde"></h6>
+          </div>
+
+
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle"><span id="msg1"></span>Essa é a <span
+                      id="nomeia"></span></h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <h6 id="informacoes"></h6>
+                  <h6 id="msg2"></h6>
+                  <h6 id="mostraPontuacao"></h6>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                  <button type="button" id="proxima" class="btn btn-primary" data-dismiss="modal">Próxima</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+          </script>
+
+          <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+          </script>
+
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+          </script>
+          <script src="./JS/jogo.js"></script>
+    </div>
+  </div>
+</body>
+
+</html>
